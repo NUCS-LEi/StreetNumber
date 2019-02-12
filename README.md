@@ -1,4 +1,4 @@
-# StreetNumber1
+# StreetNumber New
 1. Convert to TFRecords format
 $ python convert_to_tfrecords.py --data_dir data
 2. Train
