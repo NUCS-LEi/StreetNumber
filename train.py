@@ -47,7 +47,7 @@ def _train(path_to_train_tfrecords_file, num_train_examples, path_to_val_tfrecor
 
         with tf.Session() as sess:
             summary_writer = tf.summary.FileWriter(path_to_train_log_dir, sess.graph)
-            evaluator = Evaluator(os.path.join(path_to_train_log_dir, 'eval\\val'))
+            evaluator = Evaluator(os.path.join(path_to_train_log_dir, 'eval/val'))
 
             sess.run(tf.global_variables_initializer())
             coord = tf.train.Coordinator()

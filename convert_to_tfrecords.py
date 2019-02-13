@@ -61,7 +61,7 @@ class ExampleReader(object):
         if self._example_pointer == self._num_examples:
             return None
         path_to_image_file = self._path_to_image_files[self._example_pointer]
-        index = int(path_to_image_file.split('\\')[-1].split('.')[0]) - 1
+        index = int(path_to_image_file.split('/')[-1].split('.')[0]) - 1
         self._example_pointer += 1
 
         attrs = ExampleReader._get_attrs(digit_struct_mat_file, index)
