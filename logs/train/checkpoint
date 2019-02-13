@@ -1,6 +1,0 @@
-model_checkpoint_path: "latest.ckpt"
-all_model_checkpoint_paths: "model.ckpt-54000"
-all_model_checkpoint_paths: "model.ckpt-66000"
-all_model_checkpoint_paths: "model.ckpt-71000"
-all_model_checkpoint_paths: "model.ckpt-73000"
-all_model_checkpoint_paths: "latest.ckpt"
